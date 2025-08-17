@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 
 function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-  const [loading, setLoading] = useState(false); // loading state add করা হলো
+  const [loading, setLoading] = useState(false); // loading state add 
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
