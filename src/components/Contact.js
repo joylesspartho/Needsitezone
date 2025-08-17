@@ -25,7 +25,7 @@ function Contact() {
       <div className="container">
         <h2 className="text-center mb-4">Contact Us</h2>
         <div className="row justify-content-center">
-          <div className="col-md-6">
+          <div className="col-md">
             <form onSubmit={handleSubmit}>
               <div className="form-group">
                 <label>Name</label>

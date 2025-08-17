@@ -6,7 +6,7 @@ function Services(props) {
 
   return (
     <section id="services"  className="jumbotron" {...props}>
-      <div className="container " >
+      <div className="container" >
         <h2 className="text-center mb-4">Digital Experiences That Connect, Inspire, and Deliver Results</h2>
         <p className="text-justify mb-5">
           We craft digital solutions designed to empower your brand, energize your audience, and drive measurable success.
