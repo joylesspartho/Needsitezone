@@ -1,0 +1,57 @@
+.card-custom {
+  border-radius: 15px !important; /* !important to override Bootstrap's border-radius */
+}
+.card-custom:hover{
+    transition: 3s;
+    transform: scale(1.1);
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.card-body-custom {
+  min-height: 250px;
+  position: relative;
+}
+
+.icon-position {
+  position: absolute;
+  bottom: 20px;
+  right: 200px;
+  font-size: 2rem;
+  opacity: 0.7;
+}
+
+.badge-custom {
+   font-size: 14px;
+   flex-wrap: wrap;
+  
+}
+.grc-1 {
+  background: linear-gradient(170deg, #01E4F8 0%, #1D3EDE 100%);
+}
+.grc-2 {
+  background: linear-gradient(170deg, #B4EC51 0%, #429321 100%);
+}
+.grc-3 {
+  background: linear-gradient(170deg, #C86DD7 0%, #3023AE 100%);
+}
+
+.grc-4 {
+  background: linear-gradient(170deg, #FF9A00 0%, #FF6126 100%);
+}
+
+@media only screen and (max-width: 600px) {
+
+  .badge-custom {
+   font-size: 12px;
+   flex-wrap: wrap;
+  
+}
+
+}

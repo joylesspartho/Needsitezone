@@ -1,0 +1,15 @@
+.carousel-image {
+  height: 550px;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-image{
+    height: 300px;
+  }
+}
