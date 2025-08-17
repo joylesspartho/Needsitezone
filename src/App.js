@@ -26,9 +26,9 @@ function App() {
     <>
       <Navbar />
       <Hero data-aos="fade-down"/>
-      <Services  data-aos="fade-left" />
-      <DigitalGrowth data-aos="fade-right" />
-      <Sixstepdigitalgrowth data-aos="fade-left"/>
+      <Services  data-aos="fade-right" />
+      <DigitalGrowth data-aos="fade-left" />
+      <Sixstepdigitalgrowth data-aos="fade-right"/>
       <Portfolio />
       <FAQ/>
       <Contact  data-aos="fade-down" />
