@@ -4,7 +4,7 @@ import '../App.css';
 
 function MyNavbar() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="secondary" variant="dark" sticky="top" className="border-bottom">
+    <Navbar collapseOnSelect expand="lg" bg="secondary" variant="dark"  className="border-bottom sticky-top">
       <Container>
         <Navbar.Brand href="/" className="d-flex align-items-center text-light">
           <img
