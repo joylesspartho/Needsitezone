@@ -8,8 +8,8 @@ function DigitalGrowth(props){
 
 
   <     div className="container jumbotron bg-white">
-            <h2 className="text-center">why trust our team to build the perfect website for your business?</h2>
-            <p>each of our websites is responsive modren. we don't cookies cutter tamplates. each of our sites has clearly distibguishing characteristics and attention to detail. in a nutshell, your website will be as unique as you are and it will be not overloded with hundreds of unnecessary features that you don't need</p>
+            <h2 className="text-center">Why trust our team to build the perfect website for your business?</h2>
+            <p>Each of our websites is responsive modren. we don't cookies cutter tamplates. each of our sites has clearly distibguishing characteristics and attention to detail. in a nutshell, your website will be as unique as you are and it will be not overloded with hundreds of unnecessary features that you don't need</p>
        
           <div className="row">
 
@@ -17,8 +17,8 @@ function DigitalGrowth(props){
 
                 <Card2
 
-                title='responsive, modern built for your business'
-                description='your business is unique, and your website should be too, we tailor every website to fit your brand, industry, and audience, just a perfect fit for your goals.'
+                title='Responsive, modern built for your business'
+                description='Your business is unique, and your website should be too, we tailor every website to fit your brand, industry, and audience, just a perfect fit for your goals.'
                 bgClass= 'gr-1'
                 symbool='fas fa-desktop'
 
@@ -34,8 +34,8 @@ function DigitalGrowth(props){
               
              <Card2
 
-                title='high performance, fast & secure'
-                description='a slow or outdated websites can drive visitors away. we ensure your site is lightning-fast, fully optimized for SEO, and secure against cyber threats- so you stat ahaed of the competitention.'
+                title='High performance, fast & secure'
+                description='A slow or outdated websites can drive visitors away. we ensure your site is lightning-fast, fully optimized for SEO, and secure against cyber threats- so you stat ahaed of the competitention.'
                 bgClass= 'gr-2'
                 symbool='fas fa-rocket'
 
@@ -52,8 +52,8 @@ function DigitalGrowth(props){
                 
                <Card2
 
-                title='afordable pricing, no hidden costs'
-                description='quality doesnt have to break the bank. we offer transparent pricing with no hidden fees, ensuruing you get an exceptional website at a price that works for you'
+                title='Afordable pricing, no hidden costs'
+                description='Quality doesnt have to break the bank. we offer transparent pricing with no hidden fees, ensuruing you get an exceptional website at a price that works for you'
                 bgClass= 'gr-3'
                 symbool='fas fa-check-circle'
 
