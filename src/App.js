@@ -25,6 +25,8 @@ function App() {
   return (
     <>
       <Navbar />
+      <div style={{ overflowX: "hidden" }}>
+
       <Hero data-aos="fade-down"/>
       <Services  data-aos="fade-right" />
       <DigitalGrowth data-aos="fade-left" />
@@ -33,6 +35,9 @@ function App() {
       <FAQ/>
       <Contact  data-aos="fade-down" />
       <Footer />
+
+      </div>
+     
     </>
   );
 }

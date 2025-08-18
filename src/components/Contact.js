@@ -15,10 +15,10 @@ function Contact() {
 
     // Admin message
     emailjs.send(
-      'needsitezone_service',        // EmailJS service ID
+      'service_jwu5o5d',        // EmailJS service ID
       'template_admin',              // Admin template ID
       formData,                      // {name, email, message}
-      'NIgiDz66CmAoVgGxq'            // EmailJS public key/User ID
+      'ylJxLrn8phBAyNMLq'            // EmailJS public key/User ID
     ).then(
       (result) => {
         console.log('Admin:', result.text);
@@ -30,14 +30,14 @@ function Contact() {
 
     // User confirmation
     emailjs.send(
-      'needsitezone_service',        // EmailJS service ID
-      'template_user',               // User template ID
+      'service_jwu5o5d',        // EmailJS service ID
+      'template_users',               // User template ID
       {
         to_name: formData.name,
         to_email: formData.email,
         message: '' 
       },
-      'NIgiDz66CmAoVgGxq'           // EmailJS public key/User ID
+      'ylJxLrn8phBAyNMLq'           // EmailJS public key/User ID
     ).then(
       (result) => {
         console.log('User:', result.text);
